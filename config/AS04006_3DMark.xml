@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPlan testName="Slave PC1 test plan">
+	          <TestRunner configFile="/Users/zhangshuaiju/快盘/Codespace/UIAutomatorProjects/config/dut.ini">
+                <TestCase testPath="/Users/zhangshuaiju/快盘/Codespace/UIAutomatorProjects/testcase/AS04006_3DMark.py"/>
+             </TestRunner>
+</TestPlan>

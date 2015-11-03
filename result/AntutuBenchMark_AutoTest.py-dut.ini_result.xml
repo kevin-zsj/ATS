@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="0" failures="0" skip="0"><testcase classname="AC01001_settings_users.AI05007WifiiPerf5Minutes" name="test" time="66.073"><system-err><![CDATA[{platform:}{product:}{line:}{device_id:}[2015-06-09 20:09:04,829] [AWSerial] [DEBUG] lock com34.
+[2015-06-09 20:09:04,831] [AWSerial] [DEBUG] open file handler.
+[2015-06-09 20:09:04,832] [AWSerial] [DEBUG] native open function.
+[2015-06-09 20:09:04,854] [AWSerial] [DEBUG] new reader thread and start it.
+[2015-06-09 20:09:05,167] [Adb] [DEBUG] run adb command: adb  -s 00000000000000000000 push "D:\ATS_TEST\Users_Test\apk/User.jar" "/data/local/tmp/"
+[2015-06-09 20:09:05,244] [Adb] [DEBUG] command result: output[] error[59 KB/s (1885 bytes in 0.031s)
+]
+[2015-06-09 20:09:05,283] [Adb] [DEBUG] run adb command: adb  -s 00000000000000000000 shell uiautomator runtest User.jar -c com.softwinner.settings.Users#testAddNewUser
+[2015-06-09 20:10:10,729] [Adb] [DEBUG] command result: output[INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+com.softwinner.settings.Users:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testAddNewUser
+INSTRUMENTATION_STATUS: class=com.softwinner.settings.Users
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+STEP1:open User menu
+STEP2:add new Users
+STEP3:del new users
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testAddNewUser
+INSTRUMENTATION_STATUS: class=com.softwinner.settings.Users
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.
+Time: 64.582
+
+OK (1 test)
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+] error[]
+[2015-06-09 20:10:10,733] [AWSerial] [DEBUG] wait reader thread stop.
+[2015-06-09 20:10:10,733] [AWSerial] [DEBUG] close file handler.
+[2015-06-09 20:10:10,737] [AWSerial] [DEBUG] native close function.
+[2015-06-09 20:10:10,770] [AWSerial] [DEBUG] unlock com34.
+[2015-06-09 20:10:10,802] [Adb] [DEBUG] run adb command: adb  -s 00000000000000000000 shell rm /data/local/tmp/*.jar
+[2015-06-09 20:10:10,898] [Adb] [DEBUG] command result: output[] error[]
+]]></system-err></testcase></testsuite>

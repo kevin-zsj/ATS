@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestPlan testName="Slave PC1 test plan">
+	          <TestRunner configFile="d:\Workspace\Codespace\UIAutomatorProjects\config\dut.ini">
+                <TestCase testPath="d:\Workspace\Codespace\UIAutomatorProjects\testcase\AS04004_AntutuBenchMark.py"/>
+             </TestRunner>
+</TestPlan>

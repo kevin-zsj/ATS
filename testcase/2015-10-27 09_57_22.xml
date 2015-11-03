@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scores>
+<item>
+<memory>1002</memory>
+<integer>2678</integer>
+<float>1958</float>
+<score2d>1222</score2d>
+<score3d>4475</score3d>
+<database>655</database>
+<sram>1071</sram>
+<svm>2074</svm>
+<srs>0</srs>
+<smt>3758</smt>
+<snand>1190</snand>
+<ints>1151</ints>
+<floats>934</floats>
+<score>22168</score>
+<date>2015-10-27 09:56</date>
+<cpu>64-bit</cpu>
+<model>QUAD-CORE A64 p1</model>
+<version>5.1.1</version>
+<hash>1163e6d9ea366f550ada4f32efe4522c084149c0</hash>
+</item>
+</scores>
